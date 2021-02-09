@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+   <link rel="stylesheet" href="css/index.css">
+   <script src="/eel.js"></script>
+   <script src="js/index.js"></script>
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<title>WebScraper</title>
+<body>
+   <div class="banner">
+      <div class="opacity">
+         <div class="row">
+            <div class="column">
+               <img src="Images/3 shape right.svg" class="web-icon">
+            </div>
+            <div class="column">
+               <font class="web-heading">WebScraper</font>
+            </div>
+         </div>
+         <div class="row1">
+            <div class="column1">
+               <a href="">Documentation</a>
+            </div>
+            <div class="column1">
+               <a href="">Support</a>
+            </div>
+            <div class="column1">
+               <a href="">Sign out</a>
+            </div>
+         </div>
+         <br>
+         <br>
+         <br>
+         <form class="center1" onsubmit="create()">
+         <input class="input" type="text" placeholder="input your url">
+         <button class="btn">scrape</button>
+         </form>
+         <br>
+         <iframe src="protocol.txt" width="50%" height="300px" scrolling="yes" style="border-radius:10px;border: none;background-color: white;" class="center"></iframe><br><br>
+
+
+
+ <script>
+$("document").ready(function () {
+    $(".generate").click(function() {
+      $(".background").fadeToggle();
+    });
+  });
+  </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

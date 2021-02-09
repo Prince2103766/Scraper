@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+  }
+  @font-face {
+    src: url("font/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+    font-family: sofia bold;
+  }
+  @font-face {
+    src: url("font/Sofia\ Pro\ Regular\ Az.otf");
+    font-family: sofia regular;
+  }
+  @media(min-width:1025px){
+    body {
+      overflow-x: hidden;
+      padding:0;
+      margin:0;
+      background-color:white;
+      color: #4c37de ;
+      font-family: sofia regular;
+      font-size: 24px;
+    }
+    }
+    @media(max-width:1024px){
+      body {
+        overflow-x: hidden;
+        padding:0;
+        margin:0;
+        background-color:white;
+        color:  #4c37de;
+        font-family: sofia regular;
+        font-size: 16px;
+      
+      }
+      }
+.web-heading{
+              font-size:40px;
+              font-family:sofia bold;
+              color: white;
+}
+
+.banner{
+          background-image:url("https://res.cloudinary.com/prince-stevzy/image/upload/v1611796361/program1_bwa4r1.jpg");     
+          background-size:cover;
+          background-position: center;
+          width:100%;
+          height:100vh;
+          position: fixed;
+        
+}
+.opacity{
+          background-color:rgba(0, 0, 0, 0.8);
+          width: 100%;
+          height:100vh;
+
+}
+.row{
+       display:flex;
+
+}
+.column{
+       display:inline-block;
+       float:left;
+
+}
+.row1{
+       float: right;
+       margin-top:-6%;
+       margin-right:20px;
+
+}
+.column1{
+     display:inline-block;
+}         
+.right{
+  float: right;
+  justify-content: space-evenly;
+  
+}
+a{
+   padding-left:10px;
+   text-decoration:none;
+   
+}
+a{
+       color:white;
+}
+.center{
+        display: block;
+        margin-right:auto;
+        margin-left:auto;
+        max-width:50%;
+        text-align:center;
+}
+p{
+  color: white;
+}
+.center1{
+
+  width:100%;
+  text-align: center;
+  
+  
+  
+}
+.input{
+         width:400px;
+         height:50px;
+
+}
+.btn{
+      width:100px;
+      padding:10px;
+      height:50px;
+      background-color:purple;
+      border:none;
+      color: white;
+      outline: none;
+}
